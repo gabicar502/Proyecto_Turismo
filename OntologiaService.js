@@ -3,7 +3,7 @@ const axios = require('axios');
 
 class OntologiaService {
   constructor() {
-    this.fusekiUrl = 'http://localhost:3030/OntologiaOferta/query';
+    this.fusekiUrl = 'http://localhost:3030/OntologiaOferta/sparql';
   }
 
   // Consulta para obtener las categorías principales de la ontología

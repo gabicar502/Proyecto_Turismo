@@ -5,8 +5,8 @@ class UsuarioService {
     this.pool = new Pool({
       user: 'postgres',
       host: 'localhost',
-      database: 'turismo_db',
-      password: 'Drgabo2811', // Tu contraseña real
+      database: 'Turismo_BD_Login',
+      password: 'root', // Tu contraseña real
       port: 5432,
     });
   }
